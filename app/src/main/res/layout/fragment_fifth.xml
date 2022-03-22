@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".FifthFragment">
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:text="Hello world"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_margin="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_5"
+        android:text="click"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</FrameLayout>
